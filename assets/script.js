@@ -87,7 +87,7 @@ $(document).ready(function(){
         point = point-1;
       }
       $('#point').html(point);
-      $(".history-math").append('<li>'+number1+' '+op2+' '+number2+' = '+answersaya+' | <b class="text-'+dasuc+' mr-3">'+maka+'</b> answer : <b>'+jawaban+'</b></li>');
+      $(".history-math").append('<li>'+number1+' '+op2+' '+number2+' = '+answersaya+' | <b class="text-'+dasuc+' mr-3">'+maka+'</b> yg bener : <b>'+jawaban+'</b></li>');
       $(".answer").val('');
 
       //Membuat Soal Kembali
