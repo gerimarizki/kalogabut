@@ -35,7 +35,7 @@ $(document).ready(function(){
     setInterval(function(){
       $("#score-time").load('score-time.html');
       if (time <= 0) {
-        alert('Game Over!');
+        alert('Klik Okee terus kalo mo main lagiii');
         window.location='./';
       }
     },1000);
